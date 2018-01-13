@@ -55,7 +55,7 @@ module.exports = {
     ],
 
     indent: [
-      2,
+      1,
       // 缩进是2个空格
       2,
       {
