@@ -1,12 +1,10 @@
 {
   "name": "eslint-config-node-project",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "main": "index.js",
   "license": "MIT",
   "description": "",
-  "scripts": {
-    "publish": "yarn publish --registry https://registry.npmjs.com"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:zhouxiang1991/eslint-config-node-project.git"
