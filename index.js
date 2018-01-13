@@ -92,5 +92,8 @@ module.exports = {
 
     // 允许使用arguments变量
     'prefer-rest-params': 0,
+
+    // 可以使用空的构造函数，方便以后添加自己成员
+    'no-useless-constructor': 0,
   },
 };
