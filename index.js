@@ -31,6 +31,8 @@ module.exports = {
     // 变量名中可以使用_
     'no-underscore-dangle': 0,
 
+    'no-unused-vars': 1,
+
     'no-param-reassign': [
       2,
       {
