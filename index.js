@@ -97,5 +97,12 @@ module.exports = {
 
     // 可以使用空的构造函数，方便以后添加自己成员
     'no-useless-constructor': 0,
+
+    // eslint-plugin-import
+    'import/extensions': [
+      1,
+      // 导入包不需要后缀
+      'ignorePackages',
+    ]
   },
 };
