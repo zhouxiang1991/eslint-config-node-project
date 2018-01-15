@@ -41,6 +41,9 @@ module.exports = {
       },
     ],
 
+    // 可以有同名变量
+    'no-shadow': 0,
+
     'arrow-parens': [
       2,
       // 如果参数个数是一个可以不带圆括号, 否则要带圆括号
