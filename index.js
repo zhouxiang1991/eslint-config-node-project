@@ -106,7 +106,7 @@ module.exports = {
       1,
       // 导入包不需要后缀
       'ignorePackages',
-    ]
+    ],
 
     /* 可以使用全局变量 */
     'no-restricted-globals': 0
