@@ -11,7 +11,7 @@ module.exports = {
     ecmaVersion: 6,
   },
   extends: [
-    "airbnb-base"
+    'airbnb-base',
   ],
   rules: {
     'no-console': [
@@ -109,6 +109,16 @@ module.exports = {
     ],
 
     /* 可以使用全局变量 */
-    'no-restricted-globals': 0
+    'no-restricted-globals': 0,
+    'prefer-destructuring': [
+      'error',
+      {
+        array: false,
+        object: true,
+      },
+      {
+        enforceForRenamedProperties: false,
+      },
+    ],
   },
 };
