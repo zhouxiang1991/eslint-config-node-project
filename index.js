@@ -50,7 +50,7 @@ module.exports = {
       'as-needed',
       {
         // 如果函数体在花括号中则参数必须带圆括号
-        'requireForBlockBody': true,
+        requireForBlockBody: true,
       },
     ],
 
@@ -118,6 +118,16 @@ module.exports = {
       },
       {
         enforceForRenamedProperties: false,
+      },
+    ],
+    /* 定义对象必须要有换行，解构赋值则无所谓 */
+    'object-curly-newline': [
+      'error',
+      {
+        ObjectExpression: 'always',
+        ObjectPattern: {
+          consistent: true,
+        },
       },
     ],
   },
