@@ -130,6 +130,12 @@ module.exports = {
         ObjectPattern: {
           consistent: true,
         },
+        ImportDeclaration: {
+          consistent: true,
+        },
+        ExportDeclaration: {
+          consistent: true,
+        },
       },
     ],
   },
