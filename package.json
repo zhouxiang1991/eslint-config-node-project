@@ -4,7 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "description": "",
-  "scripts": {},
+  "scripts": {
+    "eslint": "eslint ./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:zhouxiang1991/eslint-config-node-project.git"

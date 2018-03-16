@@ -110,14 +110,18 @@ module.exports = {
 
     /* 可以使用全局变量 */
     'no-restricted-globals': 0,
+    /* 解构赋值 */
     'prefer-destructuring': [
       'error',
       {
-        array: false,
-        object: true,
-      },
-      {
-        enforceForRenamedProperties: false,
+        VariableDeclarator: {
+          array: false,
+          object: true,
+        },
+        AssignmentExpression: {
+          array: false,
+          object: false,
+        },
       },
     ],
     /* 定义对象必须要有换行，解构赋值则无所谓 */
