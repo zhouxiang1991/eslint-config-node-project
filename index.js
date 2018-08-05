@@ -33,14 +33,6 @@ module.exports = {
 
     'no-unused-vars': 1,
 
-    'no-param-reassign': [
-      2,
-      {
-        // 只能修改参数内数据，不能重新赋值
-        props: false,
-      },
-    ],
-
     // 可以有同名变量
     'no-shadow': 0,
 
@@ -142,5 +134,9 @@ module.exports = {
         },
       },
     ],
+    /* 可以使用位操作符 */
+    'no-bitwise': 0,
+    /* 可以对参数重新赋值 */
+    'no-param-reassign': 0,
   },
 };
