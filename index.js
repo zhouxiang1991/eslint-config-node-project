@@ -46,11 +46,6 @@ module.exports = {
       },
     ],
 
-    'arrow-body-style': [
-      2,
-      'as-needed',
-    ],
-
     indent: [
       1,
       // 缩进是2个空格
@@ -138,5 +133,7 @@ module.exports = {
     'no-bitwise': 0,
     /* 可以对参数重新赋值 */
     'no-param-reassign': 0,
+
+    'arrow-body-style': 0,
   },
 };
